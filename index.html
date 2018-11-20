@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>FINAL PROJECT</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+<!-------------------------------------------------------------------------------------------------------------------------->
+	</head>
+	<body onload="displayBooks()"> 
+<!-------------------------------------------------------------------------------------------------------------------------->
+
+		<header class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<h1 style="font-size: 195px;"> U  N  Y  L </h1>
+				</div>
+			</div>
+		</header>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+		
+		<nav class="container-fluid">
+			<div class="sticky-top" id="navBar">
+				<div class="col">
+					
+					<h3>
+						<a href="file:///home/ariascarlos/Desktop/FINALPROJECTT/index2.html">
+							ABOUT
+						</a>
+					</h3>
+				
+				</div>
+			</div>
+		</nav>
+		
+<!-------------------------------------------------------------------------------------------------------------------------->
+		<hr/>
+		<section class="container">
+			
+			<div class="row">
+				<div class="col">
+					<h3>TITLE</h3>
+					<input id="bookName" type="text" placeholder="Type Book Title" />
+				</div>
+				<div class="col-3">
+					<h3>AUTHOR NAME</h3>
+					<input id="bookAuthor" type="text" placeholder="Type Author Name" />
+				</div>
+				<div class="col-3">
+					<h3>YEAR</h3>
+					<input id="bookYear" type="number" placeholder="Type Year Published" />
+				</div>
+				<div class="col">
+					<h3>BOOK COVER</h3>
+					<input id="bookCover" type="text" placeholder="Paste Image Address" />
+				</div>
+				
+				<div class="col">
+					<button type="button" value="Add Book" class="btn btn-outline-success" onclick="addBook()">Add Book</button> 
+				</div>
+			</div>
+
+				<hr/>
+<!-------------------------------------------------------------------------------------------------------------------------->
+				<hr/>
+			<div class="container">
+				<div class="fixed-bottom">
+				<div class="row">
+					<div class="col">
+						<h4 id="quantityDisplay">QUANTITY: 0</h4>
+					</div>
+					<div class="col">
+						<h4 id="rentDisplay">BORROWED: 0</h4>
+					</div>	
+					<div class="col">
+						<h4> < OUR INVENTORY</h4>
+					</div>
+					<!--<div class="col">
+						<input type="button" value="ALPHABETIZE" onclick="sortBooks()"><h4>_by Title</h4>
+					</div>-->
+				</div>
+				</div>
+			</div>
+			
+			
+
+			<hr/>
+
+			<div>
+				<div id="display"></div>
+				
+			</div> 
+
+
+			
+			<hr/>
+
+		</section>
+<!-------------------------------------------------------------------------------------------------------------------------->
+		<hr/>
+		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-------------------------------------------------------------------------------------------------------------------------->	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script src="script.js"></script>
+	</body>
+</html>
